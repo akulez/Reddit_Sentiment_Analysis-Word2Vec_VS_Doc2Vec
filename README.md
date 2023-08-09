@@ -12,6 +12,7 @@ This project focuses on drawing a comparison between Word2Vec algorithm and Doc2
    - Once text preprocessing was done text was converted into Word2Vec and Doc2vec embeddings.
    - Data was split into training and testing and was sent to train the model.
 
-3. **Model Fitting and Evaluations:**
+3. **Model Fitting, Hyperparameter Tuning and Evaluations:**
    - Popular boosting algorithm, XGBoost was used to conduct a comparison between predictions made by Word2Vec and Doc2Vec embeddings.
+   - Hyperparameter tuning was conducted to find the best parameters for the XgBoost model using GridSearchCV.
    - It was seen that Word2Vec outperformed Doc2Vec by a huge margin, achieving an accuracy close to 99%
